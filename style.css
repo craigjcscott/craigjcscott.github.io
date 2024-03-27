@@ -1,0 +1,85 @@
+/* This is a comment for CSS */
+
+body { /* we can set formatting for the entire body */
+	background-color: cornSilk;
+	font-family: Helvetica;
+
+}
+
+p { /* or for specific chunks */
+/*	color: gray;
+	font-weight: bold;
+	font-family: cursive;*/
+}
+
+.img_square_100 {
+	height: 100px;
+	width: 100px;
+	border: solid 10px blue;
+	border-radius: 10px; /* Can also be used directly on img formatting */
+}
+
+.img_circle_100 {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px; /* For round images, radius should be .5 of height and width */
+}
+
+.img_wpadding {
+	padding: 20px 20px 20px 20px; /* Combines all sides into one line. top, right, bottom, left (clockwise)*/
+/* the 'px' is optional if there's no padding, you can just use 0 */
+/*	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border: solid 2px gray;
+
+}
+
+.angled_button {
+	margin: 15px 0 15px 0; /* margin is around button, not within */
+	width: 100px;
+	height: 100px;
+	border-radius: 30px 0 30px 0; /* clockwise from top-left */
+	background-color: red;
+	border: solid 5px dimgray;
+}
+
+.gray-element { /* or even create custom elements, which we call using class= in the tags */
+	background-color: lightGray;
+}
+
+.red-element {
+	background-color: red;
+}
+
+.medium {
+	width: 300px;
+	height: 200px;
+	background-color: pink;
+}
+
+#sample_element {
+	background-color: white;
+	color: green;
+	font-family: Courier New;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#tea {
+	color: white;
+	background-color: rgb(204,174,136); /* hex #ccae88 rgb(204,174,136) */
+	width: 180px;
+}
+
+#coffee {
+	color: white;
+	background-color: rgb(138,98,74); /* hex #8a624a rgb(138,98,74) */
+	width: 633px;
+}
+
