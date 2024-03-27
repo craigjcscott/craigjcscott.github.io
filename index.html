@@ -1,7 +1,80 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+</body>
+</html> -->
+
+<!--This is a comment. Comments are not displayed in the browser-->
+
+<!doctype html> <!--Tells the browser which kind of document it is (and which version)-->
+
+<html>
+ 
+ <head>
+ <link rel="stylesheet" href="style.css"> <!--this css file contains formatting styles -->
+ <title>'title'</title>
+ </head>
+
+<body>
+
+<p> we start with the 'html' element. Then comes 'head' with site info, and 'body' with site content.</p>
+
+<h1>'h1' creates the largest heading</h1>
+
+<h6>'h6' creates the smallest heading</h6>
+
+<p>'p' creates a paragraph, <br>
+   'br' creates a new line.</p>
+
+<p>'em' <em>italicizes</em> text <br>
+'strong' <strong>bolds</strong> text <br></p>
+
+<p>'a href=' creates a hyperlink <a href="www.apple.com">apple.com</a></p>
+
+<button>'button' creates a button.</button>
+
+<p> To embed a photo, we use 'img src='. Like 'br', this doesn't need a closing tag. <br>
+We can also specify height and width. Here's a picture of a frenchie! </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/900-French-Bulldog-l.jpg" height="320" width="180">
+
+<ol> 'ol' CREATES AN ORDERED LIST: 
+   <li class="red-element"> 'li' creates a new line item </li>
+   <li class="gray-element"> here's another </li>
+   <li class="red-element"> numbering happens automatically </li>
+   <li class="gray-element">The offset shading is done via CSS classes</li>
+</ol>
+
+<p id="sample_element">Here's an example of a named element.
+   <br> These are useful for javascript scripting.
+   <br> We can define formatting for them by name in our CSS file.
+   <br> This one is called 'sample_element'.</p>
+
+
+<p class="medium">Here's an example of using the 'width' and 'height' parameters within a class.
+   <br> This can be useful for creating text boxes, alignment, etc.
+   <br> Below is an image of an F-22 Raptor! It's been resized using a CSS class called img_square_100, which sets the dimensions to 100x100px, with a 10px rounded lue border. This is easier than specifying height and width in each image if we're reproducing lots of similar images.<p>
+
+<p id="tea">Tea: 27mg caffiene/cup</p>
+<p id="coffee">Coffee: 95mg caffiene/cup</p>
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg" class="img_square_100">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg" class="img_circle_100">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg" class="img_wpadding">
+
+<br>
+
+<button class="angled_button">Button</button>
+
+
+
+
+
+
 </body>
 </html>
